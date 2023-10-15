@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Roboto&display=swap');
+
+.home-title {
+    font-family: 'Lato', 'Montserrat', 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,6 +21,10 @@
 
 nav a {
     text-align: center;
+}
+
+#hero-img {
+    width: 100%;
 }
 
 #hero-msg h1 {
@@ -23,6 +43,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: white;
@@ -32,17 +56,26 @@ main section {
 body {
     background-color: #dddbcb ;
     color: #1f487e;
+    font-family: 'Lato', 'Montserrat', 'Roboto', sans-serif;
+    font-size: 22px;
+    margin: 0; 
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
     background-color: #dddbcb;
     color: #1f487e;
-}
+}dd
 
 nav a {
     text-decoration: none;
-    text-align: center;
     color: #1f487e;
+    text-align: center;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -54,7 +87,10 @@ nav a:hover {
     background-color: #1f487e;
     color: white;
     text-decoration: none;
-    text-align: center;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -67,14 +103,24 @@ nav a:hover {
     color: white;
 }
 
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
 .msg {
     background-color: #1f487e;
     color: white;
+    line-height: 1.5em;
+    padding: 35px;
+
 }
 
 footer {
     background-color: #1f487e;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -87,10 +133,22 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .icon {
     width: 80px;
 }
 
 .logo {
     width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
