@@ -256,22 +256,11 @@ h6 {
     font-size: 1.75em;
 }
 
-/* .blog-parent {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(12, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    } */
-
 #summer {
     width: 80%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-/*  grid-template-rows: repeat(2, auto); */
     grid-column-gap: 10px;
-/*  grid-row-gap: 0px; */
-
 }
 
 .summer-header {
@@ -297,9 +286,7 @@ h6 {
 #highlights {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-/*  grid-template-rows: repeat(4, 1fr); */
     grid-column-gap: 10px;
-/*  grid-row-gap: 0px; */
 }
 
 .highlights-header {
@@ -348,9 +335,7 @@ h6 {
 #encounters {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-/*  grid-template-rows: repeat(6, 1fr); */
     grid-column-gap: 0px;
-/*  grid-row-gap: 0px; */
     }
 
 .encounters-header {
