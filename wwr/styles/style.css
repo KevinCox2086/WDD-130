@@ -350,7 +350,7 @@ h6 {
 
 .encounters-box1 {
     grid-area: 3 / 1 / 4 / 2;
-    max-width: 100;
+    max-width: 100%;
 }
 
 #encounters1{
